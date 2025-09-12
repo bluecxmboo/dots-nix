@@ -93,7 +93,7 @@ liberation_ttf
    matugen
    swww
    btop
-   rofi
+   rofi-wayland
    yazi
    kitty
    nwg-look
