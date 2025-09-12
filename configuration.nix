@@ -109,6 +109,8 @@ liberation_ttf
    librewolf
    fzf
    bibata-cursors
+   hyprshot
+   clipman
   ];
 
 
