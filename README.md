@@ -1,6 +1,6 @@
 this is my nixOS dots repo
 
-#copy this repo
+# copy this repo
 git clone https://github.com/bluecxmboo/dotfiles-nixOS
 
 # copy files to /etc/nixos
