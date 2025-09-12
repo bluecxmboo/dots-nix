@@ -31,7 +31,6 @@ package = config.boot.kernelPackages.nvidiaPackages.stable;
 };
 programs.git = {
 enable = true;
-
 config = {
 user.name = "bluecxmboo";
 user.email = "blu20745@gmail.com";
@@ -39,7 +38,7 @@ safe.directory = "/etc/nixos";
 init.defaultBranch = "main";
 };
 };
-
+boot.kernelPackages = pkgs.linuxPackages_latest;
   # Bootloader.
   boot.loader.systemd-boot.enable = true;
   boot.loader.efi.canTouchEfiVariables = true;
