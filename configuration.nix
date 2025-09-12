@@ -16,9 +16,7 @@ environment.sessionVariables = {
 WLR_NO_HARDWARE_CURSOR = "0";
 NIXOS_OZONE_WL = "1";
 };
-hardware = {
-opengl.enable = true;
-};
+hardware.graphics.enable = true;
 services.xserver.videoDrivers = ["nvidia"];
 
 hardware.nvidia = {
