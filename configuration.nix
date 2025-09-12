@@ -111,6 +111,7 @@ liberation_ttf
    bibata-cursors
    hyprshot
    clipman
+   hyprlock
   ];
 
 

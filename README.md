@@ -1,5 +1,10 @@
 this is my nixOS dots repo
 
+# change to unstable channel
+sudo nix-channel --add https://nixos.org/channels/nixos-unstable nixos
+
+# update channel
+sudo nix-channel --update
 # copy this repo
 git clone https://github.com/bluecxmboo/dotfiles-nixOS
 
