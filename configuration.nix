@@ -10,6 +10,10 @@ programs.hyprland = {
 enable = true;
 xwayland.enable = true;
 };
+programs. steam = {
+enable = true;
+protontricks.enable = true;
+};
 programs.fish.enable = true;
 services.displayManager.ly.enable = true;
 environment.sessionVariables = {
@@ -109,6 +113,13 @@ liberation_ttf
    hyprshot
    clipman
    hyprlock
+   lutris
+   heroic
+   qbittorrent
+   linuxKernel.packages.linux_6_16.xone
+   wineWowPackages.stable
+   winetricks
+   protonup-qt
   ];
 
 
