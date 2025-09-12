@@ -8,6 +8,8 @@ sudo nix-channel --update
 # copy this repo
 git clone https://github.com/bluecxmboo/dotfiles-nixOS
 
+# copy hardware-config.nix to repo 
+sudo cp -r /etc/nixos/hardware-configuration.nix .
 # copy files to /etc/nixos
 sudo cp -r . /etc/nixos
 
