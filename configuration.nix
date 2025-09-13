@@ -36,7 +36,6 @@ enable = true;
 config = {
 user.name = "bluecxmboo";
 user.email = "blu20745@gmail.com";
-safe.directory = "/etc/nixos";
 init.defaultBranch = "main";
 };
 };
