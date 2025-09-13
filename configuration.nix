@@ -83,6 +83,7 @@ virtualisation.libvirtd.enable = true;
 virtualisation.spiceUSBRedirection.enable = true;
 
 users.users.blue.shell = pkgs.fish;
+programs.gamemode.enable = true;
   nixpkgs.config.allowUnfree = true;
 fonts.packages = with pkgs; [
 noto-fonts
@@ -128,6 +129,8 @@ liberation_ttf
   libnotify
   lazygit
   p7zip
+  cabextract
+  unzip
  ];
 
 
