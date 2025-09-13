@@ -127,7 +127,6 @@ liberation_ttf
   winetricks
   protonup-qt
   libnotify
-  lazygit
   p7zip
   cabextract
   unzip
