@@ -5,7 +5,6 @@
     [ 
       ./hardware-configuration.nix
     ];
-
 programs.hyprland = {
 enable = true;
 xwayland.enable = true;
@@ -69,12 +68,20 @@ boot.kernelPackages = pkgs.linuxPackages_latest;
     variant = "";
   };
 
-  users.users.blue = {
+    users.users.blue = {
     isNormalUser = true;
     description = "blue";
-    extraGroups = [ "networkmanager" "wheel" ];
+    extraGroups = [ "networkmanager" "wheel" "libvirtd" ];
     packages = with pkgs; [];
   };
+  programs.virt-manager.enable = true;
+
+users.groups.libvirtd.members = ["blue"];
+
+virtualisation.libvirtd.enable = true;
+
+virtualisation.spiceUSBRedirection.enable = true;
+
 users.users.blue.shell = pkgs.fish;
   nixpkgs.config.allowUnfree = true;
 fonts.packages = with pkgs; [
@@ -83,44 +90,45 @@ noto-fonts-emoji
 nerd-fonts.jetbrains-mono
 liberation_ttf
 ];
-  environment.systemPackages = with pkgs; [
-   neovim
-   git
-   stow
-   fastfetch
-   hyprcursor
-   matugen
-   swww
-   btop
-   rofi-wayland
-   yazi
-   kitty
-   nwg-look
-   fish
-   gtk3
-   gtk4
-   tmux
-   zoxide
-   vesktop
-   hyprpanel
-   rofi-power-menu
-   ly
-   pywalfox-native
-   librewolf
-   fzf
-   bibata-cursors
-   hyprshot
-   clipman
-   hyprlock
-   lutris
-   heroic
-   qbittorrent
-   linuxKernel.packages.linux_6_16.xone
-   wineWowPackages.stable
-   winetricks
-   protonup-qt
-   libnotify
-  ];
+ environment.systemPackages = with pkgs; [
+  neovim
+  git
+  stow
+  fastfetch
+  hyprcursor
+  matugen
+  swww
+  btop
+  rofi-wayland
+  yazi
+  kitty
+  nwg-look
+  fish
+  gtk3
+  gtk4
+  tmux
+  zoxide
+  vesktop
+  hyprpanel
+  rofi-power-menu
+  ly
+  pywalfox-native
+  librewolf
+  fzf
+  bibata-cursors
+  hyprshot
+  clipman
+  hyprlock
+  lutris
+  heroic
+  qbittorrent
+  linuxKernel.packages.linux_6_16.xone
+  wineWowPackages.stable
+  winetricks
+  protonup-qt
+  libnotify
+  dmidecode
+ ];
 
 
     system.stateVersion = "25.05"; 
