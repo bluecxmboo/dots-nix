@@ -120,6 +120,7 @@ liberation_ttf
    wineWowPackages.stable
    winetricks
    protonup-qt
+   libnotify
   ];
 
 
