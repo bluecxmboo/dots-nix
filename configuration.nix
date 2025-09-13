@@ -130,6 +130,8 @@ liberation_ttf
   p7zip
   cabextract
   unzip
+  starship
+  brightnessctl
  ];
 
 
