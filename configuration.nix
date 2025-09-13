@@ -102,7 +102,6 @@ liberation_ttf
   rofi-wayland
   yazi
   kitty
-  nwg-look
   fish
   gtk3
   gtk4
@@ -127,7 +126,7 @@ liberation_ttf
   winetricks
   protonup-qt
   libnotify
-  dmidecode
+  lazygit
  ];
 
 
