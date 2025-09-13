@@ -127,6 +127,7 @@ liberation_ttf
   protonup-qt
   libnotify
   lazygit
+  p7zip
  ];
 
 
