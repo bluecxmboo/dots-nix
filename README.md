@@ -14,7 +14,7 @@ sudo cp -r /etc/nixos/hardware-configuration.nix .
 sudo cp -r . /etc/nixos
 
 # rebuild system
-sudo nixos-rebuild switch --flake /etc/nixos#nixos
+sudo nixos-rebuild switch --flake /etc/nixos#nixos-btw
 
 # clone dotfiles repo
 git clone https://github.com/bluecxmboo/dotfiles
