@@ -16,6 +16,7 @@
       ./modules/timezones.nix
       ./modules/locale.nix
       ./modules/keyboard.nix
+      ./modules/fonts.nix
       ./modules/keepAsIs.nix
     ];
     locale.enable = true;
@@ -30,4 +31,5 @@
    gaming.enable = true;
    kernel.enable = true;
    keepAsIs.enable = true;
+   fonts.enable = true;
    }

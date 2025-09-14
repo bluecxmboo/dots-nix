@@ -25,7 +25,7 @@ environment.systemPackages = with pkgs; [
   matugen
   swww
   btop
-  rofi-wayland
+  rofi
   yazi
   kitty
   fish
@@ -49,12 +49,5 @@ environment.systemPackages = with pkgs; [
   starship
   brightnessctl
  ];
- fonts.packages = with pkgs; [
-noto-fonts
-noto-fonts-emoji
-nerd-fonts.jetbrains-mono
-liberation_ttf
-];
-
-};
+ };
 }
