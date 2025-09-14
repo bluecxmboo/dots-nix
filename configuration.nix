@@ -17,8 +17,10 @@
       ./modules/locale.nix
       ./modules/keyboard.nix
       ./modules/fonts.nix
+      ./modules/virtualization.nix
       ./modules/keepAsIs.nix
     ];
+    virtualization.enable = false;
     locale.enable = true;
     timezones.enable = true;
     networking.enable = true;
