@@ -20,7 +20,7 @@
       ./modules/virtualization.nix
       ./modules/keepAsIs.nix
     ];
-    virtualization.enable = false;
+    virtualization.enable = true;
     locale.enable = true;
     timezones.enable = true;
     networking.enable = true;
