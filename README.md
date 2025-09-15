@@ -12,11 +12,15 @@ git clone https://github.com/bluecxmboo/dotfiles-nixOS
 sudo cp -r /etc/nixos/hardware-configuration.nix .
 # rebuild system
 sudo nixos-rebuild switch --flake . #nixos-btw 
+# update flake
+sudo nix flake update
 # clone dotfiles repo
 git clone https://github.com/bluecxmboo/dotfiles
 
 # stow everything in dotfiles directory
 stow (whatever appears in ls)
 
+# apply updates
+sudo nixos-rebuild switch --flake .
 # reboot
 reboot
