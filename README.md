@@ -10,12 +10,8 @@ git clone https://github.com/bluecxmboo/dotfiles-nixOS
 
 # copy hardware-config.nix to repo 
 sudo cp -r /etc/nixos/hardware-configuration.nix .
-# copy files to /etc/nixos
-sudo cp -r . /etc/nixos
-
 # rebuild system
-sudo nixos-rebuild switch --flake /etc/nixos#nixos-btw
-
+sudo nixos-rebuild switch --flake . #nixos-btw 
 # clone dotfiles repo
 git clone https://github.com/bluecxmboo/dotfiles
 
