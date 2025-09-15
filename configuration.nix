@@ -19,7 +19,9 @@
       ./modules/fonts.nix
       ./modules/virtualization.nix
       ./modules/keepAsIs.nix
+      ./modules/amd.nix
     ];
+    amd.enable = false;
     virtualization.enable = true;
     locale.enable = true;
     timezones.enable = true;
