@@ -21,6 +21,10 @@
       ./modules/keepAsIs.nix
       ./modules/amd.nix
     ];
+    home-manager.useUserPackages = true;
+    home-manager.useGlobalPkgs = true;
+    home-manager.backupFileExtension = "backup";
+    home-manager.users.blue = import ./home.nix;
     amd.enable = false;
     virtualization.enable = true;
     locale.enable = true;
