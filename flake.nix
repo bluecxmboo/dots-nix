@@ -5,6 +5,7 @@
     matugen = {
     url = "github:/InioX/Matugen";
     };
+     hjem.url = "github:feel-co/hjem";
   };
 
   outputs = {...}@inputs: {
@@ -15,6 +16,7 @@
       modules = [
         { nix.settings.experimental-features = ["nix-command" "flakes"]; }
         ./configuration.nix
+        inputs.hjem.nixosModules.default
          ];
 
     };

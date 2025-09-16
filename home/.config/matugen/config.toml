@@ -1,0 +1,80 @@
+[config]
+reload_apps = true
+
+[config.wallpaper]
+command = "swww"
+arguments = [ "img", "-t", "fade", "--transition-duration", "0.5", "--transition-step", "255", "--transition-fps", "60", "-f", "Nearest",]
+set = true
+
+#[templates.nvim]
+#input_path = '~/.config/nvim/pywal/matugen.lua'
+#output_path = '~/.cache/wal/base46-dark.lua'
+
+[templates.yazi]
+input_path = '~/.config/matugen/templates/yazi-theme.toml'
+output_path = '~/.config/yazi/theme.toml'
+
+[templates.pywalfox]
+input_path = '~/.config/matugen/templates/pywalfox-colors.json'
+output_path = '~/.cache/wal/colors.json'
+post_hook = 'pywalfox update'
+
+[templates.tmux]
+input_path = '~/.config/matugen/templates/tmux.conf'
+output_path = '~/.tmux.conf'
+post_hook = 'tmux source-file ~/.tmux.conf'
+
+[templates.vesktop]
+input_path = '~/.config/matugen/templates/midnight-discord.css'
+output_path = '~/.config/vesktop/themes/midnight-discord.css'
+
+[templates.rofi]
+input_path = '~/.config/matugen/templates/rofi-colors.rasi'
+output_path = '~/.config/rofi/colors.rasi'
+
+[templates.hyprland]
+input_path = '~/.config/matugen/templates/hyprland-colors.conf'
+output_path = '~/.config/hypr/colors.conf'
+post_hook = 'hyprctl reload'
+
+
+[templates.hyprlock]
+input_path = "~/.config/matugen/templates/hyprland-colors.conf"
+output_path = "~/.config/hypr/colors.conf"
+
+[templates.kitty]
+input_path = "~/.config/matugen/templates/matugen-kitty.conf"
+output_path = "~/.config/kitty/themes/matugen.conf"
+post_hook = "kitty +kitten themes --reload-in=all matugen"
+
+[templates.btop]
+input_path = "~/.config/matugen/templates/btop.theme"
+output_path = "~/.config/btop/themes/matugen.theme"
+
+[config.custom_colors.red]
+color = "#FF0000"
+blend = true
+
+[config.custom_colors.green]
+color = "#00FF00"
+blend = true
+
+[config.custom_colors.yellow]
+color = "#FFFF00"
+blend = true
+
+[config.custom_colors.blue]
+color = "#0000FF"
+blend = true
+
+[config.custom_colors.magenta]
+color = "#FF00FF"
+blend = true
+
+[config.custom_colors.cyan]
+color = "#00FFFF"
+blend = true
+
+[config.custom_colors.white]
+color = "#FFFFFF"
+blend = true

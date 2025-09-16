@@ -1,0 +1,104 @@
+{
+  "bar.customModules.storage.paths": [
+    "/"
+  ],
+  "theme.font.size": "1rem",
+  "theme.font.name": "JetBrainsMono Nerd Font Propo",
+  "theme.font.label": "JetBrainsMono Nerd Font Propo",
+  "scalingPriority": "hyprland",
+  "bar.layouts": {
+    "0": {
+      "left": [
+        "dashboard",
+        "workspaces",
+        "windowtitle"
+      ],
+      "middle": [],
+      "right": [
+        "volume",
+        "clock",
+        "systray",
+        "notifications"
+      ]
+    },
+    "1": {
+      "left": [
+        "dashboard",
+        "workspaces",
+        "windowtitle"
+      ],
+      "middle": [],
+      "right": [
+        "volume",
+        "clock",
+        "systray",
+        "notifications"
+      ]
+    },
+    "2": {
+      "left": [
+        "dashboard",
+        "workspaces"
+      ],
+      "middle": [
+        "windowtitle"
+      ],
+      "right": [
+        "volume",
+        "clock",
+        "notifications",
+        "systray"
+      ]
+    }
+  },
+  "theme.bar.floating": false,
+  "theme.bar.buttons.radius": "0.4em",
+  "bar.windowtitle.icon": false,
+  "bar.windowtitle.truncation": false,
+  "bar.windowtitle.truncation_size": 100,
+  "bar.clock.format": " %I:%M %p",
+  "bar.workspaces.show_numbered": false,
+  "bar.workspaces.numbered_active_indicator": "highlight",
+  "bar.workspaces.showAllActive": false,
+  "bar.workspaces.workspaces": 5,
+  "bar.workspaces.monitorSpecific": false,
+  "wallpaper.enable": true,
+  "wallpaper.image": "/home/blue/dotfiles/wallpapers/wallpapers/a_video_game_screen_of_a_video_game.jpg",
+  "theme.matugen": true,
+  "theme.bar.transparent": true,
+  "theme.bar.buttons.background_opacity": 40,
+  "menus.dashboard.controls.enabled": false,
+  "menus.dashboard.stats.enabled": false,
+  "menus.dashboard.directories.enabled": false,
+  "theme.bar.buttons.workspaces.fontSize": "1em",
+  "theme.bar.location": "top",
+  "theme.bar.margin_sides": "0em",
+  "theme.bar.margin_top": "0em",
+  "bar.volume.label": true,
+  "bar.clock.showIcon": false,
+  "theme.bar.buttons.clock.spacing": "0em",
+  "theme.bar.opacity": 100,
+  "theme.bar.border_radius": "0.9em",
+  "theme.matugen_settings.variation": "standard_2",
+  "theme.matugen_settings.scheme_type": "tonal-spot",
+  "theme.matugen_settings.contrast": 0,
+  "theme.bar.buttons.enableBorders": false,
+  "theme.font.style": "normal",
+  "theme.bar.buttons.dashboard.enableBorder": false,
+  "theme.bar.buttons.workspaces.enableBorder": false,
+  "bar.autoHide": "never",
+  "theme.bar.buttons.background": "#000000",
+  "theme.bar.layer": "bottom",
+  "bar.workspaces.showWsIcons": true,
+  "bar.workspaces.showApplicationIcons": false,
+  "bar.workspaces.applicationIconMap": {},
+  "bar.workspaces.workspaceIconMap": {
+    "1": " ",
+    "2": "󰙯",
+    "3": "",
+    "4": "󰓓",
+    "5": ""
+  },
+  "notifications.position": "top",
+  "bar.launcher.autoDetectIcon": true
+}

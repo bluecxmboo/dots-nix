@@ -1,0 +1,18 @@
+
+//@import "~/.cache/wal/colors-rofi-dark" 
+@import "colors.rasi"
+//@theme "/home/blue/.local/share/rofi/themes/rounded-nord-dark.rasi"
+
+//@theme "/home/blue/.local/share/rofi/themes/rounded-nord-dark.rasi"
+
+//@theme "/usr/share/rofi/themes/Arc-Dark.rasi"
+
+//@theme "/home/blue/.local/share/rofi/themes/rounded-nord-dark.rasi"
+
+//@theme "/usr/share/rofi/themes/Arc-Dark.rasi"
+
+//@theme "/home/blue/.local/share/rofi/themes/rounded-gray-dark.rasi"
+
+//@theme "/usr/share/rofi/themes/fullscreen-preview.rasi"
+
+@theme "/home/blue/.config/rofi/rounded-gray-dark.rasi"

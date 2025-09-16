@@ -1,4 +1,4 @@
-{ config, pkgs,inputs, ... }:
+{ config, pkgs,inputs,lib, ... }:
 
 {
   imports =
@@ -21,6 +21,13 @@
       ./modules/keepAsIs.nix
       ./modules/amd.nix
     ];
+    hjem.users.blue.enable = true;
+    hjem.clobberByDefault = true;
+    hjem.linker = pkgs.smfh;
+    hjem.users.blue = {
+    directory = "/home/blue";
+    files = (import ./findFiles.nix {inherit lib;});
+    };
     amd.enable = false;
     virtualization.enable = true;
     locale.enable = true;

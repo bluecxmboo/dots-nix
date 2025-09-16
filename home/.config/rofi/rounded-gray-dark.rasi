@@ -1,0 +1,17 @@
+/* ROUNDED THEME FOR ROFI */
+/* Author: Newman Sanchez (https://github.com/newmanls) */
+
+* {
+    bg0:    @shadow;
+    bg1:    @shadow;
+    bg2:    @primary;
+    bg3:    @surface-container-high;
+    fg0:    @primary;
+    fg1:    @primary;
+    fg2:    @primary;
+    fg3:    @primary;
+}
+
+@import "template/rounded-template.rasi"
+//@import "~/.cache/wal/colors-rofi-dark"
+@import "~/.config/rofi/colors.rasi"
