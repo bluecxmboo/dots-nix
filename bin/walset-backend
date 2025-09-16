@@ -1,0 +1,29 @@
+#checks if the user provided an argument
+#if [ "$#" -ne 1 ]; then 
+ # echo "Usage: $0 <path_to_image>"
+  #exit 1 
+  #fi 
+IMAGE="$1"
+
+#send notification to the user
+notify-send "Changing theme" "Applying new wallpaper and updating colors, please wait..."
+
+#set wallpaper
+swww img "$IMAGE" 
+#generate pywal colors
+#wal -i "$IMAGE" -n -e
+
+#generate matugen colors
+matugen image "$IMAGE"
+
+#make nvim use pywal colors
+python3 /home/blue/.config/nvim/pywal/chadwal.py
+
+#set hyprpanel colors
+hyprpanel sw "$IMAGE"
+#update pywalfox
+pywalfox update
+#apply gtk3 theme
+nwg-look -a
+#completed
+notify-send "Wallpaper and theme changed succefully"
