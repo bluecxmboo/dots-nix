@@ -1,4 +1,4 @@
-{pkgs, lib, config, ...}: {
+{pkgs, lib, config, inputs, ...}: {
 
 options = {
 desktopapps.enable =
@@ -22,7 +22,7 @@ environment.systemPackages = with pkgs; [
   stow
   fastfetch
   hyprcursor
-  matugen
+  #matugen
   swww
   btop
   rofi
@@ -48,6 +48,7 @@ environment.systemPackages = with pkgs; [
   unzip
   starship
   brightnessctl
+inputs.matugen.packages.${system}.default
  ];
  };
 }
