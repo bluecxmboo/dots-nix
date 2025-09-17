@@ -17,7 +17,7 @@ init.defaultBranch = "main";
 services.displayManager.ly.enable = true;
 programs.fish.enable = true;
 environment.systemPackages = with pkgs; [
-  neovim
+ # neovim
   git
   fastfetch
   hyprcursor
@@ -49,6 +49,7 @@ environment.systemPackages = with pkgs; [
   starship
   brightnessctl
 inputs.matugen.packages.${system}.default
+inputs.self.packages.${pkgs.system}.default
  ];
  };
 }
