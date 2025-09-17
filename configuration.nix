@@ -20,14 +20,16 @@
       ./modules/virtualization.nix
       ./modules/keepAsIs.nix
       ./modules/amd.nix
+      ./modules/hjem.nix
     ];
-    hjem.users.blue.enable = true;
-    hjem.clobberByDefault = true;
-   hjem.users.blue = { 
-   directory = "/home/blue";
-    files = (import ./findFiles.nix {inherit lib;});
-    };
+  # hjem.users.blue.enable = true;
+  # hjem.clobberByDefault = true;
+  #hjem.users.blue = { 
+  #directory = "/home/blue";
+  # files = (import ./findFiles.nix {inherit lib;});
+  # };
     amd.enable = false;
+    hjem.enable = true;
     virtualization.enable = true;
     locale.enable = true;
     timezones.enable = true;
