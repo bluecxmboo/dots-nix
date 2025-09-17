@@ -10,6 +10,7 @@
      url = "github:NotAShelf/nvf";
      inputs.nixpkgs.follows = "nixpkgs";
 };
+      hjem-impure.url = "github:Rexcrazy804/hjem-impure";
   };
 
   outputs = {nixpkgs,nvf,...}@inputs: {

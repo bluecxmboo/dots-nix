@@ -23,6 +23,10 @@
     ];
     hjem.users.blue.enable = true;
     hjem.clobberByDefault = true;
+    hjem.extraModules = [
+    inputs.hjem-impure.hjemModules.default                  # imports the hjemModule
+  ];
+  hjem.users.blue.impure.enable = true;
     hjem.users.blue = {
     directory = "/home/blue";
     files = (import ./findFiles.nix {inherit lib;});
