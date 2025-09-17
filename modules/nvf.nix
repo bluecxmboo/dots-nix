@@ -11,7 +11,6 @@ autocomplete.nvim-cmp.enable = true;
 binds.whichKey.enable = true;
 binds.whichKey.setupOpts.preset = "modern";
 utility.snacks-nvim.enable = true;
-mini.align.enable = true;
 mini.basics.enable = true;
 mini.animate.enable = true;
 dashboard.alpha.enable = true;
