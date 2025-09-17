@@ -23,7 +23,6 @@
     ];
     hjem.users.blue.enable = true;
     hjem.clobberByDefault = true;
-    hjem.linker = pkgs.smfh;
     hjem.users.blue = {
     directory = "/home/blue";
     files = (import ./findFiles.nix {inherit lib;});

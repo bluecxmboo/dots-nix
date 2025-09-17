@@ -19,7 +19,6 @@ programs.fish.enable = true;
 environment.systemPackages = with pkgs; [
   neovim
   git
-  stow
   fastfetch
   hyprcursor
   #matugen
@@ -32,6 +31,7 @@ environment.systemPackages = with pkgs; [
   gtk3
   gtk4
   tmux
+  smfh
   zoxide
   vesktop
   hyprpanel
