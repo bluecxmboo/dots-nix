@@ -20,7 +20,7 @@
       ./modules/virtualization.nix
       ./modules/keepAsIs.nix
       ./modules/amd.nix
-      ./modules/hjem.nix
+     ./modules/hjem.nix
     ];
     amd.enable = false;
     hjem.enable = true;
