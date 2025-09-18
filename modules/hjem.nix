@@ -1,4 +1,4 @@
-{pkgs,lib,config,...}: {
+{pkgs,lib,config,inputs,...}: {
 options = {
 hjem.enable = lib.mkEnableOption "enables hjem";
 };
@@ -8,7 +8,7 @@ hjem.clobberByDefault = true;
 hjem.linker = pkgs.smfh;
 hjem.users.blue = {
         directory = "/home/blue";
-        files = (import ../findFiles.nix {inherit lib;});
+        files =  (import ../findFiles.nix {inherit lib;});
         };
         };
 }

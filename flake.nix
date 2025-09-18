@@ -10,7 +10,7 @@
      url = "github:NotAShelf/nvf";
      inputs.nixpkgs.follows = "nixpkgs";
 };
-  };
+       };
 
   outputs = {nixpkgs,nvf,...}@inputs: {
     packages.x86_64-linux.default = 
