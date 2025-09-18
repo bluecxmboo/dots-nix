@@ -6,6 +6,7 @@ name = "catppuccin";
 style = "mocha";
 };
 statusline.lualine.enable = true;
+diagnostics.enable = true;
 telescope.enable = true;
 autocomplete.nvim-cmp.enable = true;
 binds.whichKey.enable = true;
