@@ -1,0 +1,8 @@
+font-family = JetBrainsMono Nerd Font propo
+font-size = 12
+mouse-hide-while-typing = true
+background-opacity = 0.5
+background-blur = 1
+theme = "/home/blue/matugen/ghostty/matugen.theme"
+shell-integration = fish
+confirm-close-surface = false

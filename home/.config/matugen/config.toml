@@ -10,6 +10,10 @@ set = true
 #input_path = '~/.config/nvim/pywal/matugen.lua'
 #output_path = '~/.cache/wal/base46-dark.lua'
 
+[templates.ghostty]
+input_path= '~/dots-nix/home/.config/matugen/templates/ghostty'
+output_path= '~/matugen/ghostty/matugen.theme'
+
 [templates.starship]
 input_path = '~/dots-nix/home/.config/matugen/templates/starship-colors.toml'
 output_path = '~/matugen/starship/starship.toml'

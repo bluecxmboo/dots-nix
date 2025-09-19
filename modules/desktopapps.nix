@@ -50,6 +50,7 @@ environment.systemPackages = with pkgs; [
   brightnessctl
 inputs.matugen.packages.${system}.default
 inputs.self.packages.${pkgs.system}.default
+ghostty
  ];
  };
 }

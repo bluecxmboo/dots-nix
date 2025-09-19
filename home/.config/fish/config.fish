@@ -6,4 +6,5 @@ fzf --fish | source
 starship init fish | source
 alias rebuild-nix="sudo nixos-rebuild switch --flake ."
 alias yazi="env "YAZI_CONFIG_HOME=~/matugen/yazi" yazi"
+export STARSHIP_CONFIG=/home/blue/matugen/starship.toml
 set -g fish_key_bindings fish_vi_key_bindings

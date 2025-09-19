@@ -15,4 +15,4 @@
 
 //@theme "/usr/share/rofi/themes/fullscreen-preview.rasi"
 
-@theme "/home/blue/.config/rofi/rounded-gray-dark.rasi"
+@theme "~/dots-nix/home/.config/rofi/rounded-gray-dark.rasi"
