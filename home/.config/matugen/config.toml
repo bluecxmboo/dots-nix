@@ -10,9 +10,13 @@ set = true
 #input_path = '~/.config/nvim/pywal/matugen.lua'
 #output_path = '~/.cache/wal/base46-dark.lua'
 
+[templates.starship]
+input_path = '~/dots-nix/home/.config/matugen/templates/starship-colors.toml'
+output_path = '~/matugen/starship/starship.toml'
+
 [templates.yazi]
 input_path = '~/.config/matugen/templates/yazi-theme.toml'
-output_path = '~/.config/yazi/theme.toml'
+output_path = '~/matugen/yazi/theme.toml'
 
 [templates.pywalfox]
 input_path = '~/.config/matugen/templates/pywalfox-colors.json'
@@ -21,8 +25,8 @@ post_hook = 'pywalfox update'
 
 [templates.tmux]
 input_path = '~/.config/matugen/templates/tmux.conf'
-output_path = '~/.tmux.conf'
-post_hook = 'tmux source-file ~/.tmux.conf'
+output_path = '~/matugen/tmux.conf'
+post_hook = 'tmux source-file ~/matugen/tmux.conf'
 
 [templates.vesktop]
 input_path = '~/.config/matugen/templates/midnight-discord.css'
@@ -30,17 +34,17 @@ output_path = '~/.config/vesktop/themes/midnight-discord.css'
 
 [templates.rofi]
 input_path = '~/.config/matugen/templates/rofi-colors.rasi'
-output_path = '~/.config/rofi/colors.rasi'
+output_path = '~/matugen/rofi/colors.rasi'
 
 [templates.hyprland]
 input_path = '~/.config/matugen/templates/hyprland-colors.conf'
-output_path = '~/.config/hypr/colors.conf'
+output_path = '~/matugen/hypr/colors.conf'
 post_hook = 'hyprctl reload'
 
 
 [templates.hyprlock]
 input_path = "~/.config/matugen/templates/hyprland-colors.conf"
-output_path = "~/.config/hypr/colors.conf"
+output_path = "~/.matugen/hypr/colors.conf"
 
 [templates.kitty]
 input_path = "~/.config/matugen/templates/matugen-kitty.conf"
@@ -49,7 +53,7 @@ post_hook = "kitty +kitten themes --reload-in=all matugen"
 
 [templates.btop]
 input_path = "~/.config/matugen/templates/btop.theme"
-output_path = "~/.config/btop/themes/matugen.theme"
+output_path = "~/matugen/btop/themes/matugen.theme"
 
 [config.custom_colors.red]
 color = "#FF0000"

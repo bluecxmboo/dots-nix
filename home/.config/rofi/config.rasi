@@ -1,6 +1,6 @@
 
 //@import "~/.cache/wal/colors-rofi-dark" 
-@import "colors.rasi"
+@import "~/matugen/rofi/colors.rasi"
 //@theme "/home/blue/.local/share/rofi/themes/rounded-nord-dark.rasi"
 
 //@theme "/home/blue/.local/share/rofi/themes/rounded-nord-dark.rasi"

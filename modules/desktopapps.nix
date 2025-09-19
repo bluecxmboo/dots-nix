@@ -14,6 +14,7 @@ user.email = "blu20745@gmail.com";
 init.defaultBranch = "main";
 };
 };
+programs.tmux.enable = true;
 services.displayManager.ly.enable = true;
 programs.fish.enable = true;
 environment.systemPackages = with pkgs; [
@@ -30,7 +31,6 @@ environment.systemPackages = with pkgs; [
   fish
   gtk3
   gtk4
-  tmux
   smfh
   zoxide
   vesktop
