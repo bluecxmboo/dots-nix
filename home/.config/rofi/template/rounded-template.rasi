@@ -1,6 +1,6 @@
 /* ROUNDED THEME FOR ROFI */
 /* Author: Newman Sanchez (https://github.com/newmanls) */
-
+@import "~/matugen/rofi/colors.rasi"
 * {
     font:   "JetBrainsMono Nerd Font propo 11";
 

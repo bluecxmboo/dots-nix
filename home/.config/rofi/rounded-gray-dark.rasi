@@ -14,4 +14,4 @@
 
 @import "template/rounded-template.rasi"
 //@import "~/.cache/wal/colors-rofi-dark"
-@import "~/dots-nix/home/.config/rofi/colors.rasi"
+@import "~/matugen/rofi/colors.rasi"

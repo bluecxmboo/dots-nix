@@ -1,6 +1,6 @@
 general {
-    gaps_in = 10
-    gaps_out = 20
+    gaps_in = 5
+    gaps_out = 13
 
     border_size = 2
 
@@ -23,7 +23,7 @@ decoration {
     rounding_power = 2
 
     # Change transparency of focused and unfocused windows
-    active_opacity = 0.8
+    active_opacity = 0.8 
     inactive_opacity = 0.8
 
     shadow {
