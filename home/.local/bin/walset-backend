@@ -11,7 +11,7 @@ notify-send "Changing theme" "Applying new wallpaper and updating colors, please
 #set wallpaper
 swww img "$IMAGE" 
 #generate pywal colors
-wal -i "$IMAGE" -n -e
+wal -i "$IMAGE"  
 
 #generate matugen colors
 matugen image "$IMAGE"

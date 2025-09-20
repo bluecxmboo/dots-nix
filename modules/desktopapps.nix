@@ -48,7 +48,6 @@ environment.systemPackages = with pkgs; [
   unzip
   starship
   brightnessctl
-  pywal16
 inputs.matugen.packages.${system}.default
 inputs.self.packages.${pkgs.system}.default
  ];
