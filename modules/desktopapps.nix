@@ -17,6 +17,7 @@ init.defaultBranch = "main";
 programs.tmux.enable = true;
 services.displayManager.ly.enable = true;
 programs.fish.enable = true;
+services.power-profiles-daemon.enable = true;
 environment.systemPackages = with pkgs; [
  # neovim
   git
@@ -48,7 +49,6 @@ environment.systemPackages = with pkgs; [
   starship
   brightnessctl
   microfetch
-  power-profiles-daemon
 inputs.matugen.packages.${system}.default
 inputs.self.packages.${pkgs.system}.default
  ];
