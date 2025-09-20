@@ -20,7 +20,6 @@ programs.fish.enable = true;
 environment.systemPackages = with pkgs; [
  # neovim
   git
-  fastfetch
   hyprcursor
   #matugen
   swww
@@ -48,6 +47,8 @@ environment.systemPackages = with pkgs; [
   unzip
   starship
   brightnessctl
+  microfetch
+  power-profiles-daemon
 inputs.matugen.packages.${system}.default
 inputs.self.packages.${pkgs.system}.default
  ];
