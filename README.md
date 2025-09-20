@@ -1,26 +1,21 @@
-this is my nixOS dots repo
+this is my dotfiles repo for nixOS
 
-# change to unstable channel
-sudo nix-channel --add https://nixos.org/channels/nixos-unstable nixos
+## instructions
 
-# update channel
-sudo nix-channel --update
-# copy this repo
-git clone https://github.com/bluecxmboo/dotfiles-nixOS
+# edit /etc/nixos/configuration.nix to install neovim and git and change hostname 
+then run ``sudo nixos rebuild switch``
 
-# copy hardware-config.nix to repo 
-sudo cp -r /etc/nixos/hardware-configuration.nix .
-# rebuild system
-sudo nixos-rebuild switch --flake . #nixos-btw 
-# update flake
-sudo nix flake update
-# clone dotfiles repo
-git clone https://github.com/bluecxmboo/dotfiles
+# clone this repo 
+``git clone https://github.com/bluecxmboo/dots-nix``
 
-# stow everything in dotfiles directory
-stow (whatever appears in ls)
+# remove hardware-configuration.nix and replace with system one 
+``rm hardware-configuration.nix && sudo cp /etc/nixos/configuration.nix .``
 
-# apply updates
-sudo nixos-rebuild switch --flake .
+# run rebuild command with flake
+``sudo nixos-rebuild switch --flake .#nixos-btw (or whatever hostname i'm currently using)``
+
 # reboot
-reboot
+``reboot``
+
+if it doesn't work then idk, also i have no idea how i'm gonna optimize these dotfiles for my laptop when i have to use it unplugged, but that's a problem for later
+
