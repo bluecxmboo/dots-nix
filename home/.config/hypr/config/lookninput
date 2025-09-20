@@ -37,7 +37,8 @@ decoration {
     blur {
         enabled = true
         size = 8 
-        passes = 1
+        passes = 3
+        new_optimizations = true
 
         vibrancy = 0.1696
     }
