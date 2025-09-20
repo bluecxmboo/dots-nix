@@ -6,6 +6,7 @@ name = "catppuccin";
 style = "mocha";
 };
 statusline.lualine.enable = true;
+statusline.lualine.theme = "pywal";
 debugger.nvim-dap.enable = true;
 debugger.nvim-dap.ui.enable = true;
 diagnostics.config.underline = true;

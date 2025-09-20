@@ -11,19 +11,19 @@ notify-send "Changing theme" "Applying new wallpaper and updating colors, please
 #set wallpaper
 swww img "$IMAGE" 
 #generate pywal colors
-#wal -i "$IMAGE" -n -e
+wal -i "$IMAGE" -n -e
 
 #generate matugen colors
 matugen image "$IMAGE"
 
 #make nvim use pywal colors
-python3 /home/blue/.config/nvim/pywal/chadwal.py
+#python3 /home/blue/.config/nvim/pywal/chadwal.py
 
 #set hyprpanel colors
 hyprpanel sw "$IMAGE"
 #update pywalfox
 pywalfox update
 #apply gtk3 theme
-nwg-look -a
+#nwg-look -a
 #completed
 notify-send "Wallpaper and theme changed succefully"
