@@ -17,5 +17,4 @@ then run ``sudo nixos rebuild switch``
 # reboot
 ``reboot``
 
-if it doesn't work then idk, also i have no idea how i'm gonna optimize these dotfiles for my laptop when i have to use it unplugged, but that's a problem for later
 
