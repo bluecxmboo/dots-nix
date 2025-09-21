@@ -2,8 +2,9 @@
 /* Author: Newman Sanchez (https://github.com/newmanls) */
 
 * {
-    bg0:    @shadow;
-    bg1:    @shadow;
+    transparency: "real";
+    bg0:    rgba(0, 0, 0, 0.5);
+    bg1:    rgba(0, 0, 0, 0.5);
     bg2:    @primary;
     bg3:    @surface-container-high;
     fg0:    @primary;
