@@ -10,7 +10,7 @@ keyword general:gaps_out 13;\
 keyword general:gaps_in 5;\
 keyword decoration:shadow:enabled 1;\
 keyword decoration:blur:enabled 1;\
-misc:vfr = false"
+keyword misc:vfr true"
 fi
 
 if [[ "$1" = "power-saver" ]]; then
@@ -23,7 +23,7 @@ keyword general:gaps_in 5;\
 keyword decoration:shadow:enabled 0;\
 keyword decoration:blur:enabled 0;\
 keyword decoration:rounding 0;\
-misc:vfr = true"
+keyword misc:vfr true"
 fi
 
 
