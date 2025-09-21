@@ -6,7 +6,7 @@
     bg0:    rgba(0, 0, 0, 0.5);
     bg1:    rgba(0, 0, 0, 0.5);
     bg2:    @primary;
-    bg3:    @surface-container-high;
+    bg3:    rgba(0, 0, 0, 0.5);
     fg0:    @primary;
     fg1:    @primary;
     fg2:    @primary;

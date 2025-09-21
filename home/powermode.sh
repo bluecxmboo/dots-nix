@@ -27,3 +27,18 @@ keyword misc:vfr true"
 fi
 
 
+if [[ "$1" = "balanced" ]]; then
+#power saver
+hyprctl --batch "\
+keyword animations:enabled 1;\
+keyword general:border_size 2;\
+keyword general:gaps_out 13;\
+keyword general:gaps_in 5;\
+keyword decoration:shadow:enabled 0;\
+keyword decoration:blur:enabled 0;\
+keyword misc:vfr true"
+fi
+
+
+
+
