@@ -29,8 +29,8 @@ post_hook = 'pywalfox update'
 
 [templates.tmux]
 input_path = '~/.config/matugen/templates/tmux.conf'
-output_path = '~/matugen/tmux.conf'
-post_hook = 'tmux source-file ~/matugen/tmux.conf'
+output_path = '~/.tmux.conf'
+post_hook = 'tmux source-file ~/.tmux.conf'
 
 [templates.vesktop]
 input_path = '~/.config/matugen/templates/midnight-discord.css'
