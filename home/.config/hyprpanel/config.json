@@ -79,7 +79,7 @@
   "theme.bar.buttons.clock.spacing": "0em",
   "theme.bar.opacity": 100,
   "theme.bar.border_radius": "0.9em",
-  "theme.matugen_settings.variation": "standard_3",
+  "theme.matugen_settings.variation": "monochrome_1",
   "theme.matugen_settings.scheme_type": "tonal-spot",
   "theme.matugen_settings.contrast": 0,
   "theme.bar.buttons.enableBorders": false,
