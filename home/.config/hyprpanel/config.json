@@ -62,7 +62,7 @@
   "bar.workspaces.showAllActive": false,
   "bar.workspaces.workspaces": 5,
   "bar.workspaces.monitorSpecific": false,
-  "wallpaper.enable": true,
+  "wallpaper.enable": false,
   "wallpaper.image": "/home/blue/dots-nix/home/wallpapers/wallhaven-gw7kr7_2560x1440.png",
   "theme.matugen": true,
   "theme.bar.transparent": true,
