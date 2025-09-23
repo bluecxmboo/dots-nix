@@ -62,11 +62,11 @@
         "systems": "systems_2"
       },
       "locked": {
-        "lastModified": 1757838174,
-        "narHash": "sha256-HdHp5Xpws+MOWOWU0RuLpKUPdpQdA/9qNCtpH8BUYvQ=",
+        "lastModified": 1758403506,
+        "narHash": "sha256-l5lQN4oSnvd3TAM7lDDZxh+FTLlRHqUin54JPed/UbM=",
         "owner": "InioX",
         "repo": "Matugen",
-        "rev": "a49399b8a937d2ac5d142dec64e84c152fe76205",
+        "rev": "a48b0c352b1248b0d42282b486c6bc22aca87f32",
         "type": "github"
       },
       "original": {
@@ -124,11 +124,11 @@
     },
     "nixpkgs_3": {
       "locked": {
-        "lastModified": 1758198701,
-        "narHash": "sha256-7To75JlpekfUmdkUZewnT6MoBANS0XVypW6kjUOXQwc=",
+        "lastModified": 1758277210,
+        "narHash": "sha256-iCGWf/LTy+aY0zFu8q12lK8KuZp7yvdhStehhyX1v8w=",
         "owner": "nixos",
         "repo": "nixpkgs",
-        "rev": "0147c2f1d54b30b5dd6d4a8c8542e8d7edf93b5d",
+        "rev": "8eaee110344796db060382e15d3af0a9fc396e0e",
         "type": "github"
       },
       "original": {
