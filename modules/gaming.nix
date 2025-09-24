@@ -14,7 +14,6 @@ lutris
 wine64
 wine64Packages.wayland
 heroic
-qbittorrent
 winetricks
 protonup-qt
 linuxKernel.packages.linux_6_16.xone
