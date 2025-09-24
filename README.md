@@ -1,4 +1,6 @@
-this is my dotfiles repo for nixOS
+this is my dotfiles repo for nixOS 
+
+# this repo is intended for my personal use only, use at your own risk 
 
 ## instructions
 
