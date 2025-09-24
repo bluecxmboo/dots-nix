@@ -1,4 +1,4 @@
-{lib,...}: {
+ {lib,...}: {
 vim = {
 theme = {
 enable = true;
@@ -24,17 +24,16 @@ telescope.enable = true;
 binds.whichKey.enable = true;
 binds.whichKey.setupOpts.preset = "modern";
 utility.snacks-nvim.enable = true;
-utility.nvim-biscuits.enable = true;
 utility.yazi-nvim.enable = true;
-utility.yazi-nvim.mappings.openYaziDir = "<leader>yz";
 utility.motion.flash-nvim.enable = true;
-git.vim-fugitive.enable = true;
+git.vim-fugitive.enable = true; 
+tabline.nvimBufferline.enable = true;
+tabline.nvimBufferline.mappings.closeCurrent = "<leader>cb";
 mini.surround.enable = true;
 mini.basics.enable = true;
 mini.animate.enable = true;
 dashboard.alpha.enable = true;
 dashboard.alpha.theme = "dashboard";
-mini.git.enable = true;
 utility.undotree.enable = true;
 ui.noice.enable = true;
 ui.colorizer.enable = true;
