@@ -30,6 +30,7 @@ utility.motion.flash-nvim.enable = true;
 tabline.nvimBufferline.enable = true;
 tabline.nvimBufferline.mappings.closeCurrent = "<leader>cb";
 mini.basics.enable = true;
+mini.pairs.enable = true;
 mini.animate.enable = true;
 dashboard.alpha.enable = true;
 dashboard.alpha.theme = "dashboard";
