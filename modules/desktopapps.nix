@@ -49,6 +49,7 @@ environment.systemPackages = with pkgs; [
   starship
   brightnessctl
   microfetch
+  opencode
 inputs.matugen.packages.${system}.default
 inputs.self.packages.${pkgs.system}.default
  ];
