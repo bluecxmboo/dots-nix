@@ -5,6 +5,7 @@ enable = true;
 name = "catppuccin";
 style = "macchiato";
 };
+options.termguicolors = true;
 statusline.lualine.enable = true;
 statusline.lualine.theme = "catppuccin";
 debugger.nvim-dap.enable = true;
