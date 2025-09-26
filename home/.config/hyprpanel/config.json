@@ -66,7 +66,7 @@
   "wallpaper.image": "/home/blue/dots-nix/home/wallpapers/wallhaven-gw7kr7_2560x1440.png",
   "theme.matugen": true,
   "theme.bar.transparent": true,
-  "theme.bar.buttons.background_opacity": 40,
+  "theme.bar.buttons.background_opacity": 100,
   "menus.dashboard.controls.enabled": false,
   "menus.dashboard.stats.enabled": false,
   "menus.dashboard.directories.enabled": false,
