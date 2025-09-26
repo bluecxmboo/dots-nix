@@ -3,7 +3,7 @@ vim = {
 theme = {
 enable = true;
 name = "catppuccin";
-style = "mocha";
+style = "macchiato";
 };
 statusline.lualine.enable = true;
 statusline.lualine.theme = "catppuccin";
@@ -14,7 +14,7 @@ diagnostics.config.underline = true;
  diagnostics.config.virtual_text = {
  format = lib.generators.mkLuaInline ''
      function(diagnostic)
-       return string.format("%s (%s)", diagnostic.message, diagnostic.source)
+       return string.format("%s (%s)", diagnostic.message)
      end
    '';
  };
