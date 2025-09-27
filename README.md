@@ -20,3 +20,11 @@ then run ``sudo nixos rebuild switch``
 ``reboot``
 
 
+## credits
+
+# rofi theme
+https://github.com/kianblakley/niri-land
+
+# a good chunk of wallpapers 
+https://github.com/orangci/walls
+
