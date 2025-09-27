@@ -9,6 +9,7 @@ keyword general:border_size 3;\
 keyword general:gaps_out 13;\
 keyword general:gaps_in 5;\
 keyword decoration:shadow:enabled 1;\
+keyword decoration:blur:enabled 1;\
 keyword misc:vfr true"
 fi
 
