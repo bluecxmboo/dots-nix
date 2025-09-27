@@ -51,7 +51,6 @@ environment.systemPackages = with pkgs; [
   microfetch
   opencode
   python314
-  waybar
 inputs.matugen.packages.${system}.default
 inputs.self.packages.${pkgs.system}.default
  ];

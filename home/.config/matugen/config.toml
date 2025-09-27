@@ -22,10 +22,10 @@ output_path = '~/matugen/starship/starship.toml'
 input_path = '~/.config/matugen/templates/yazi-theme.toml'
 output_path = '~/matugen/yazi/theme.toml'
 
-[templates.waybar]
-input_path='~/dots-nix/home/.config/matugen/templates/colors.css'
-output_path='~/matugen/waybar/colors.css'
-post_hook= 'pkill -SIGUSR2 waybar'
+# [templates.waybar]
+# input_path='~/dots-nix/home/.config/matugen/templates/colors.css'
+# output_path='~/matugen/waybar/colors.css'
+# post_hook= 'pkill -SIGUSR2 waybar'
 
 [templates.pywalfox]
 input_path = '~/.config/matugen/templates/pywalfox-colors.json'
